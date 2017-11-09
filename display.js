@@ -20,8 +20,8 @@ var plant, header;
 
 function preload() {
   /*** load images before setup() ***/
-  plant = loadImage("lavender.png");  //source: http://everything-lavender.com/growing-lavender-in-containers.html
-  header = loadImage("garden.png");  //source: http://blog.1800gotjunk.com/wp-content/uploads/2014/11/Indoor-Gardening-Fresh.jpg
+  plant = loadImage("images/lavender.png");  //source: http://everything-lavender.com/growing-lavender-in-containers.html
+  header = loadImage("images/garden.png");  //source: http://blog.1800gotjunk.com/wp-content/uploads/2014/11/Indoor-Gardening-Fresh.jpg
 }
 
 function setup() {
