@@ -1,22 +1,21 @@
-/***Arduino Measurements***/
+/*** Arduino Measurements ***/
 length = 70;
 width = 53;
 height = 15;
-
 wallThickness = 3;
-wiggleRoom = 1; //extra space inside case
+wiggleRoom = 1;  //extra space inside case
 
 /*** Lid ***/
-translate( [0, -25, 50]) //positioned it above so top and bottom of lid is easily viewable
+translate( [0, -25, 50])  //positioned it above so top and bottom of lid is easily viewable
 
 difference(){
     union() {
-        //top lid
+        //construct top lid
         color([0, 0.66, 0.66])
         translate( [0, 75, 2])
         cube([length + wiggleRoom*2 + wallThickness*2, width + wiggleRoom * 2 + wallThickness*2, 2]);
         
-        //top lid inner area underneath
+        //construct top lid's inner area underneath
         color([0, 0.5, 0.66])
         translate( [wallThickness, 75 +  wallThickness, 0])
         cube([length + wiggleRoom*2, width + wiggleRoom * 2, 2]);
@@ -37,18 +36,19 @@ difference(){
         text("plant manager");
     }
     
-    //opening for analog wiring
+    //make opening for analog wiring
     translate( [0.3*length + wallThickness, 75 + wallThickness, -2])
     cube ([0.7*length, 5, 7]);
     
-    //opening for digital wiring
+    //make opening for digital wiring
     translate( [0.3*length + wallThickness, 125 + wallThickness, -2])
     cube ([0.7*length, 5, 7]);
 }
 
 
 /*** Case ***/
-union() { //make the case sides and bottom
+union() { 
+    //make the case sides and bottom
     difference () {
     //outer box surface
     color([0, 0.1, 0.15])
