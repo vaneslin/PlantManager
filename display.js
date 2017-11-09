@@ -18,17 +18,17 @@ var xData, yData;  //coordinates of time (x) and moisture level (y) on graph
 //images
 var plant, header;
 
-function preload() {
-  /*** load images before setup() ***/
-  plant = loadImage("lavender.png");  //source: http://everything-lavender.com/growing-lavender-in-containers.html
-  header = loadImage("garden.png");  //source: http://blog.1800gotjunk.com/wp-content/uploads/2014/11/Indoor-Gardening-Fresh.jpg
-}
+// function preload() {
+//   /*** load images before setup() ***/
+//   plant = loadImage("lavender.png");  //source: http://everything-lavender.com/growing-lavender-in-containers.html
+//   header = loadImage("garden.png");  //source: http://blog.1800gotjunk.com/wp-content/uploads/2014/11/Indoor-Gardening-Fresh.jpg
+// }
 
 function setup() {
   /*** runs once then loops draw() ***/
   createCanvas(1440, 861);
   today = day();
-  //thisminute = minute();
+
   //setup serial reading
   serial = new p5.SerialPort();
   serial.on("data", serialEvent);
@@ -54,13 +54,6 @@ function serialEvent() {
         dataArray = new Array();
         today = day();
       }
-
-      //Demo purposes ************************
-      //xData = yAxisXPos + (second()/60)*900;
-      // if (minute()!=thisminute){
-      //   dataArray = new Array();
-      //   thisminute = minute();
-      // }
 
       //adds point (time, moisture%) to dataArray
       append(dataArray, xData);
@@ -110,8 +103,8 @@ function draw() {
   }
 
   //display images after loading in preload()
-  image(plant, 10, 690, 120, 150);
-  image(header, 0, 0, 1440, 200);
+  // image(plant, 10, 690, 120, 150);
+  // image(header, 0, 0, 1440, 200);
 }
 
 function drawTitleBar() {
