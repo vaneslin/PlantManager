@@ -18,11 +18,11 @@ var xData, yData;  //coordinates of time (x) and moisture level (y) on graph
 //images
 var plant, header;
 
-// function preload() {
-//   /*** load images before setup() ***/
-//   plant = loadImage("lavender.png");  //source: http://everything-lavender.com/growing-lavender-in-containers.html
-//   header = loadImage("garden.png");  //source: http://blog.1800gotjunk.com/wp-content/uploads/2014/11/Indoor-Gardening-Fresh.jpg
-// }
+function preload() {
+  /*** load images before setup() ***/
+  plant = loadImage("lavender.png");  //source: http://everything-lavender.com/growing-lavender-in-containers.html
+  header = loadImage("garden.png");  //source: http://blog.1800gotjunk.com/wp-content/uploads/2014/11/Indoor-Gardening-Fresh.jpg
+}
 
 function setup() {
   /*** runs once then loops draw() ***/
@@ -103,8 +103,8 @@ function draw() {
   }
 
   //display images after loading in preload()
-  // image(plant, 10, 690, 120, 150);
-  // image(header, 0, 0, 1440, 200);
+  image(plant, 10, 690, 120, 150);
+  image(header, 0, 0, 1440, 200);
 }
 
 function drawTitleBar() {
