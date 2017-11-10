@@ -1,12 +1,15 @@
 # Plant Manager
 
 Full Documentation here: http://bit.ly/2zM3GQe
+
 View online app here: http://theplantmanager.azurewebsites.net
 
 ---
 
-[Version]    9/11/17:  Plant Manager v1.0.0 
+[Version]    9/11/17:  Plant Manager v1.0.0
+
 [Author]     Vanessa Lin 
+
 [Used]       Arduino/C, JavaScript, HTML + p5.js and p5.serial libraries from Processing
 
 
