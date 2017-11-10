@@ -1,7 +1,5 @@
 # Plant Manager
 
-Full Documentation here: http://bit.ly/2zM3GQe
-
 View online app here: http://theplantmanager.azurewebsites.net
 
 ---
