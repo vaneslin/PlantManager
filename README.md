@@ -1,6 +1,6 @@
 # Plant Manager
 
-Full Documentation here: http://bit.ly/2zvZ4Nk
+Full Documentation here: http://bit.ly/2zM3GQe
 View online app here: http://theplantmanager.azurewebsites.net
 
 ---
@@ -48,12 +48,12 @@ http://bit.ly/2zysNTA
 
 [Setup]
 1.	Connect hardware as shown in the circuit diagram (link above) and connect Arduino Uno to computer via USB connector
-2.	Unzip VanessaLin.zip 
-3.	Open …/VanessaLin/Arduino/Arduino_Code/Arduino_Code.ino with Arduino IDE
+2.	Clone PlantManager onto your computer or download as a .zip file
+3.	Open Arduino_Code.ino with Arduino IDE
 4.	Select the right port in Tools > Port (mine is "/dev/cu.usbmodem143221")
 5.	Upload sketch
-6.	In the console, navigate to the directory: …/VanessaLin/Arduino/Display_Code
-7.	Type in following command to start serial server:  node startserver.js
+6.	In the console, navigate to the PlantManager project directory
+7.	Type in following console command to start serial server:  node startserver.js
 8.	View live data in Plant Manager:  http://theplantmanager.azurewebsites.net
 
 [OpenSCAD]
