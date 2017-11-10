@@ -1,6 +1,6 @@
 //serial values
 var serial;
-var port = "/dev/cu.usbmodem143221";
+var userPort = prompt("Please enter your port name:", "/dev/cu.usbmodem143221");
 var isMoistureData = true;
 var temperature = 0;  //arduino integer output of temperature
 var moisture = 0;  //arduino integer output of moisture
@@ -33,7 +33,7 @@ function setup() {
   serial = new p5.SerialPort();
   serial.on("data", serialEvent);
   serial.on("error", serialError);
-  serial.open(port, 9600);
+  serial.open(userPort, 9600);
   serial.clear();
 }
 
