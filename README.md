@@ -32,16 +32,23 @@ Based on temperature and moisture level, displays watering suggestion and commen
 
 [Materials] 
 Hardware:
+
 1 Arduino UNO + USB connector 
+
 1 Kuman Moisture Sensor 
+
 1 Thermistor 
+
 1 10k ohm resistor 
+
 1 Breadboard 
+
 Wires as needed 
 
 Software:
-Arduino IDE 
-Text Editor 
+
+Arduino IDE  
+
 Node.js 
 
 
@@ -65,8 +72,11 @@ Protect your Arduino from the elements and any watering accidents! This case (ca
 Case Image: http://bit.ly/2mcfN38
 
 Features:
+
 •	Snug, dark coloured case with openings for wiring and USB connector
+
 •	Top lid engraved with text
+
 •	Bottom of case supported by four feet
 
 [Contact]    
