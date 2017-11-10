@@ -1,6 +1,6 @@
 //serial values
 var serial;
-var userPort = prompt("Please enter your port name:", "/dev/cu.usbmodem143221");
+var userPort = prompt("Please check your port name:", "/dev/cu.usbmodem143221");
 var isMoistureData = true;
 var temperature = 0;  //arduino integer output of temperature
 var moisture = 0;  //arduino integer output of moisture
