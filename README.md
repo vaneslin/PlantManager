@@ -14,8 +14,11 @@ View online app here: http://theplantmanager.azurewebsites.net
 
 
 [Resources] 
+
 GitHub: https://github.com/vaneslin/PlantManager 
+
 Azure: http://theplantmanager.azurewebsites.net 
+
 Demo: https://youtu.be/dfNE7GkEbVA 
  
  
@@ -25,12 +28,16 @@ The idea for a Plant Manager arose when I visited a family friend in late Octobe
 Plant Manager is an Azure web app that monitors the state of your plant’s moisture level and ambient temperature, using an Arduino UNO, a moisture sensor, and a thermistor. 
 
 Features:  
-Displays current temperature and soil moisture level 
-Plots soil moisture level over a period of 24 hours, refreshing each day 
-Based on temperature and moisture level, displays watering suggestion and comments on temperature 
+
+•	Displays current temperature and soil moisture level 
+
+•	Plots soil moisture level over a period of 24 hours, refreshing each day 
+
+•	Based on temperature and moisture level, displays watering suggestion and comments on temperature 
 
 
 [Materials] 
+
 Hardware:
 
 1 Arduino UNO + USB connector 
@@ -44,6 +51,7 @@ Hardware:
 1 Breadboard 
 
 Wires as needed 
+
 
 Software:
 
