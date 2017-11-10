@@ -1,6 +1,6 @@
 //serial values
 var serial;
-var port = "/dev/cu.usbmodem145221";
+var port = "/dev/cu.usbmodem143221";
 var isMoistureData = true;
 var temperature = 0;  //arduino integer output of temperature
 var moisture = 0;  //arduino integer output of moisture
