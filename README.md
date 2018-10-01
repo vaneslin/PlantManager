@@ -1,6 +1,6 @@
 # Plant Manager
 
-View online app here: http://theplantmanager.azurewebsites.net
+View online app here: http://plantager.azurewebsites.net
 
 ---
 
@@ -15,7 +15,7 @@ View online app here: http://theplantmanager.azurewebsites.net
 
 GitHub: https://github.com/vaneslin/PlantManager 
 
-Azure: http://theplantmanager.azurewebsites.net 
+Azure: http://plantager.azurewebsites.net 
 
 Demo: https://youtu.be/dfNE7GkEbVA 
  
@@ -70,7 +70,7 @@ http://bit.ly/2zysNTA
 5.	Upload sketch
 6.	In the console, navigate to the PlantManager project directory
 7.	Type in following console command to start serial server:  node startserver.js
-8.	View live data in Plant Manager:  http://theplantmanager.azurewebsites.net
+8.	View live data in Plant Manager:  http://plantager.azurewebsites.net
 
 [OpenSCAD]
 Protect your Arduino from the elements and any watering accidents! This case (case.scad) was rendered and modeled with OpenSCAD.
