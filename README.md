@@ -6,8 +6,6 @@ View online app here: http://plantager.azurewebsites.net
 
 [Version]    9/11/17:  Plant Manager v1.0.0
 
-[Author]     Vanessa Lin 
-
 [Used]       Arduino/C, JavaScript, HTML + p5.js and p5.serial libraries from Processing
 
 
@@ -85,8 +83,6 @@ Features:
 
 •	Bottom of case supported by four feet
 
-[Contact]    
-For any questions, please contact me at vanessa.lin.17@ucl.ac.uk
 
 
 
