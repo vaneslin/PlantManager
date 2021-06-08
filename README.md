@@ -1,6 +1,6 @@
 # Plant Manager
 
-View online app here: http://plantager.azurewebsites.net
+View online app here: http://plantager.azurewebsites.net (update 7 Jun 2021: sadly server taken down after I graduated, so live version is dead)
 
 ---
 
